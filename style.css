@@ -29,13 +29,17 @@ nav a {
 }
 
 /* Hero Section Placeholder */
-.hero-section {
-    height: 80vh;
-    background-color: #f4f4f4; /* Abhi picture ki jagah halka grey color */
+hero-section {
+    height: 100vh; /* Full screen height */
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), 
+                url('hero.jpeg'); /* Agar aapne naam hero.jpeg rakha hai */
+    background-size: cover;
+    background-position: center;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
+    color: white;
 }
 
 .hero-text h1 {
